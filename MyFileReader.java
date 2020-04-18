@@ -22,4 +22,7 @@ class MyFileReader {
 	String[] getStringArray() {
 		return strArr;
 	}
+	void closeFile() throws Exception {
+		bf.close();
+	}
 }
